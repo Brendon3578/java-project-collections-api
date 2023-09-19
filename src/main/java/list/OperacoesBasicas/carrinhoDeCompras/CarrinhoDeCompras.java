@@ -15,12 +15,16 @@ public class CarrinhoDeCompras {
     }
 
     public void removerItem(String nome) {
-        List itensRemovidos = new ArrayList();
+        List<Item> itensRemovidos = new ArrayList();
 
-        for (Item i : itensLista) {
-            if (i.getNome().equalsIgnoreCase(nome)) {
-                itensRemovidos.add(i);
+        if (!itensLista.isEmpty()) {
+            for (Item i : itensLista) {
+                if (i.getNome().equalsIgnoreCase(nome)) {
+                    itensRemovidos.add(i);
+                }
             }
+        } else {
+            System.out.println("A lista está vazia!");
         }
 
         this.itensLista.removeAll(itensRemovidos);
@@ -29,10 +33,16 @@ public class CarrinhoDeCompras {
     public double calcularValorTotal() {
         double total = 0;
 
-        for (Item i : itensLista) {
-            total += i.getPreco() * i.getQuantidade();
+        if (!itensLista.isEmpty()) {
+            for (Item i : itensLista) {
+                total += i.getPreco() * i.getQuantidade();
+            }
+            return total;
+        } else {
+            throw new RuntimeException("A Lista está vazia, operação não pode ser efetuada.");
         }
-        return total;
+
+
     }
 
     public void exibirItens() {

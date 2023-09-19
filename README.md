@@ -37,7 +37,7 @@ Exercícios:
 
 ## Pesquisa em List
 
-### 1. Catálogo de Livros
+### 1. [Catálogo de Livros](./src/main/java/list/Pesquisa/catalogoLivros/Main.java)
 
 <p>Crie uma classe chamada "CatalogoLivros" que possui uma lista de objetos do tipo "Livro" como atributo. Cada livro possui atributos como título, autor e ano de publicação. Implemente os seguintes métodos:
 
@@ -47,7 +47,7 @@ Exercícios:
 - `pesquisarPorTitulo(String titulo)`: Pesquisa livros por título e retorna o primeiro livro encontrado.
 </p>
 
-### 2. Soma de Números
+### 2. [Soma de Números](./src/main/java/list/Pesquisa/somaNumeros/Main.java)
 
 <p>Crie uma classe chamada "SomaNumeros" que possui uma lista de números inteiros como atributo. Implemente os seguintes métodos:
 
