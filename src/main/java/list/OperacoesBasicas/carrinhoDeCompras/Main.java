@@ -1,10 +1,8 @@
 package main.java.list.OperacoesBasicas.carrinhoDeCompras;
 
+import static main.java.textutils.CLI.imprimeLinha;
+
 public class Main {
-    public static void imprimeLinha(String message) {
-        System.out.println("> " + "-".repeat(64));
-        System.out.println("> Testando se " + message);
-    }
 
     public static void main(String[] args) {
         CarrinhoDeCompras carrinhoDeComprasList = new CarrinhoDeCompras();

@@ -1,10 +1,8 @@
 package main.java.list.Pesquisa.somaNumeros;
 
+import static main.java.textutils.CLI.imprimeLinha;
+
 public class Main {
-    public static void imprimeLinha(String mensagem) {
-        System.out.println("> " +"-".repeat(64));
-        System.out.println("> Deve " + mensagem);
-    }
 
     public static void main(String[] args) {
         SomaNumeros numerosLista = new SomaNumeros();

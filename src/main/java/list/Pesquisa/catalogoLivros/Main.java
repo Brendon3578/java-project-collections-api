@@ -3,12 +3,9 @@ package main.java.list.Pesquisa.catalogoLivros;
 
 import java.util.List;
 
-public class Main {
+import static main.java.textutils.CLI.imprimeLinha;
 
-    public static void imprimeLinha(String mensagem) {
-        System.out.println("> " +"-".repeat(64));
-        System.out.println("> Deve " + mensagem);
-    }
+public class Main {
 
     public static void main(String[] args) {
         CatalogoLivros catalogoLivros = new CatalogoLivros();

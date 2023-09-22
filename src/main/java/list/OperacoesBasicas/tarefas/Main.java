@@ -3,11 +3,9 @@ package main.java.list.OperacoesBasicas.tarefas;
 import java.time.LocalDate;
 import java.util.List;
 
+import static main.java.textutils.CLI.imprimeLinha;
+
 public class Main {
-    public static void imprimeLinha(String mensagem) {
-        System.out.println("> " +"-".repeat(64));
-        System.out.println("> Testando se " + mensagem);
-    }
 
     public static void main(String[] args) {
         ListaTarefas listaDeTarefas = new ListaTarefas();
