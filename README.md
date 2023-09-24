@@ -220,7 +220,7 @@ Crie uma classe chamada "EstoqueProdutos" que utilize um Map para armazenar os p
 - `obterProdutoMaiorQuantidadeValorTotalNoEstoque()`: Retorna o produto que está em maior quantidade no estoque, considerando o valor total de cada produto (quantidade * preço).
 </p>
 
-### 2. Contagem de Palavras
+### 2. [Contagem de Palavras](./src/main/java/map/Pesquisa/contagemPalavras/Main.java)
 
 <p>
 Crie uma classe chamada "ContagemPalavras" que utilize um Map para armazenar as palavras e a quantidade de vezes que cada palavra aparece em um texto. Implemente os seguintes métodos:
